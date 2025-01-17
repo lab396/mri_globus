@@ -1,0 +1,10 @@
+{
+  "DATA_TYPE": "expression_identity_mapping#1.0.0",
+  "mappings": [
+    {
+      "source": "{username}",
+      "match": "(.*)@psu\\.edu",
+      "output": "{0}"
+    }
+  ]
+}
