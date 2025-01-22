@@ -1,0 +1,10 @@
+#!/bin/sh
+# This job was submitted through scrontab
+#SCRON --job-name=CQI-arch-UP
+#SCRON --output=CQI-arch-UP-%j.out
+#SCRON -p open
+#SCRON -t 48:00:00
+#SCRON --mail-type=ALL,TIME_LIMIT_80
+#SCRON --mail-user=l-cqi-data-administrators@lists.psu.edu
+# crontab time request was: '0 1 * * 0'
+/storage/work/$USER/prod/run_archive_UP.sh
